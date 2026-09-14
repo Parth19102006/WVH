@@ -246,5 +246,102 @@
     ],
     "passwordValid": true,
     "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-E8C87C7B",
+    "email": "contract@wvh.local",
+    "userId": "U00596",
+    "timestamp": "2026-09-14 15:41:48",
+    "loginTime": "2026-09-14 15:41:48",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 45.3,
+    "risk_score": 45.3,
+    "riskLevel": "MEDIUM",
+    "risk_level": "MEDIUM",
+    "requiredAction": "PASSWORD + OTP",
+    "required_action": "PASSWORD + OTP",
+    "decision": "Password + OTP",
+    "authenticationDecision": "PASSWORD_OTP",
+    "authentication_decision": "PASSWORD_OTP",
+    "authenticationStatus": "OTP Required",
+    "authentication_status": "OTP Required",
+    "status": "OTP Required",
+    "message": "Additional verification is required.",
+    "riskReasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "46%",
+        "observed_value": "46%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:41:48",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 45.76,
+    "behavioral_score": 45.76,
+    "rbsScore": 45.0,
+    "rbs_score": 45.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false,
+    "simulatedOtp": "246810"
   }
 ]

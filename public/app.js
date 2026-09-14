@@ -5,11 +5,11 @@ const state = {
 };
 
 const steps = [
-  "Verifying credentials",
-  "Detecting device/browser",
   "Collecting login context",
-  "Comparing behavioral patterns",
+  "Checking historical behavior",
+  "Evaluating risk signals",
   "Calculating risk score",
+  "Selecting authentication level",
 ];
 
 const $ = (selector) => document.querySelector(selector);

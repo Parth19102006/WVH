@@ -1,7 +1,6 @@
 import hashlib
 import json
 import os
-import random
 import sys
 import uuid
 from datetime import datetime, timezone
@@ -121,10 +120,6 @@ def parse_user_agent(user_agent):
 def country_from_context(context):
     locale = str(context.get("language") or context.get("locale") or "")
     timezone_name = str(context.get("timezone") or "")
-    if "-" in locale:
-        candidate = locale.split("-")[-1].upper()
-        if len(candidate) == 2:
-            return candidate
     timezone_map = {
         "kolkata": "IN",
         "calcutta": "IN",
@@ -141,6 +136,10 @@ def country_from_context(context):
     for key, country in timezone_map.items():
         if key in lowered:
             return country
+    if "-" in locale:
+        candidate = locale.split("-")[-1].upper()
+        if len(candidate) == 2:
+            return candidate
     return "IN"
 
 
@@ -238,6 +237,7 @@ def decision_for(scored_row, password_valid):
         return {
             "status": "FAILED",
             "authenticationStatus": "Failed",
+            "authenticationDecision": "PASSWORD_FAILED",
             "method": "Password",
             "message": "Password authentication failed.",
         }
@@ -245,6 +245,7 @@ def decision_for(scored_row, password_valid):
         return {
             "status": "SUCCESS",
             "authenticationStatus": "Authenticated",
+            "authenticationDecision": "PASSWORD_ONLY",
             "method": "Password",
             "message": "Password authentication is sufficient.",
         }
@@ -252,6 +253,7 @@ def decision_for(scored_row, password_valid):
         return {
             "status": "OTP_REQUIRED",
             "authenticationStatus": "OTP Required",
+            "authenticationDecision": "PASSWORD_OTP",
             "method": "Password + OTP",
             "message": "Additional verification is required.",
         }
@@ -259,12 +261,14 @@ def decision_for(scored_row, password_valid):
         return {
             "status": "BLOCKED",
             "authenticationStatus": "Blocked",
+            "authenticationDecision": "BLOCKED",
             "method": "Blocked",
             "message": "Suspicious login detected.",
         }
     return {
         "status": "OTP_REQUIRED",
         "authenticationStatus": "Strong Verification Required",
+        "authenticationDecision": "STRONG_VERIFICATION",
         "method": "Password + OTP",
         "message": "Strong verification is required.",
     }
@@ -282,11 +286,31 @@ def risk_signals(scored_row):
         ("Failed Attempts", int(scored_row["failed_login_attempts"]), "High" if "Multiple Failed Attempts" in reason_set else "Low"),
         ("Behavioral Deviation", f"{float(scored_row['if_score']):.0f}%", "High" if int(scored_row["if_anomaly_flag"]) else "Low"),
     ]
-    return [{"signal": s, "observedValue": v, "impact": i} for s, v, i in rows]
+    return [
+        {
+            "signal": s,
+            "observedValue": v,
+            "observed_value": v,
+            "impact": i,
+        }
+        for s, v, i in rows
+    ]
 
 
 def public_attempt(scored_row, email, decision):
     risk_score = float(scored_row["final_risk_score"])
+    behavioral_score = round(float(scored_row.get("if_score") or 0), 2)
+    context = {
+        "timestamp": scored_row["timestamp"],
+        "device": scored_row["device"],
+        "browser": scored_row["browser"],
+        "os": scored_row["device_type"],
+        "country": scored_row["country"],
+        "ip_address": scored_row.get("ip_address", "Unavailable"),
+        "timezone": scored_row.get("timezone", "Unknown"),
+        "language": scored_row.get("language", "Unknown"),
+        "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation",
+    }
     status_label = {
         "Authenticated": "Success",
         "OTP Required": "OTP Required",
@@ -306,14 +330,28 @@ def public_attempt(scored_row, email, decision):
         "country": scored_row["country"],
         "ipAddress": scored_row.get("ip_address", "Unavailable"),
         "riskScore": round(risk_score, 2),
+        "risk_score": round(risk_score, 2),
         "riskLevel": scored_row["final_risk_level"],
+        "risk_level": scored_row["final_risk_level"],
         "requiredAction": scored_row["required_action"],
+        "required_action": scored_row["required_action"],
         "decision": decision["method"],
+        "authenticationDecision": decision["authenticationDecision"],
+        "authentication_decision": decision["authenticationDecision"],
         "authenticationStatus": decision["authenticationStatus"],
+        "authentication_status": decision["authenticationStatus"],
         "status": status_label,
         "message": decision["message"],
         "riskReasons": [r.strip() for r in str(scored_row.get("risk_reasons") or "Normal").split(",")],
+        "risk_reasons": [r.strip() for r in str(scored_row.get("risk_reasons") or "Normal").split(",")],
         "signals": risk_signals(scored_row),
+        "context": context,
+        "behavioralScore": behavioral_score,
+        "behavioral_score": behavioral_score,
+        "rbsScore": round(float(scored_row.get("rbs_score") or 0), 2),
+        "rbs_score": round(float(scored_row.get("rbs_score") or 0), 2),
+        "ifAnomalyFlag": int(scored_row.get("if_anomaly_flag") or 0),
+        "if_anomaly_flag": int(scored_row.get("if_anomaly_flag") or 0),
     }
 
 
