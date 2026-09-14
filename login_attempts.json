@@ -1,0 +1,250 @@
+[
+  {
+    "attemptId": "SIM-F8B66783",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:29:14",
+    "loginTime": "2026-09-14 15:29:14",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 23.06,
+    "riskLevel": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationStatus": "Authenticated",
+    "status": "Authenticated",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "New Device"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "28%",
+        "impact": "Low"
+      }
+    ],
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-3D018822",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:29:55",
+    "loginTime": "2026-09-14 15:29:55",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 46.94,
+    "riskLevel": "MEDIUM",
+    "requiredAction": "PASSWORD + OTP",
+    "decision": "Password + OTP",
+    "authenticationStatus": "OTP Required",
+    "status": "OTP Required",
+    "message": "Additional verification is required.",
+    "riskReasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "50%",
+        "impact": "Low"
+      }
+    ],
+    "passwordValid": true,
+    "otpVerified": false,
+    "simulatedOtp": "246810"
+  },
+  {
+    "attemptId": "SIM-CEBC74FC",
+    "email": "fresh@wvh.local",
+    "userId": "U00685",
+    "timestamp": "2026-09-14 15:30:34",
+    "loginTime": "2026-09-14 15:30:34",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 46.19,
+    "riskLevel": "MEDIUM",
+    "requiredAction": "PASSWORD + OTP",
+    "decision": "Password + OTP",
+    "authenticationStatus": "OTP Required",
+    "status": "OTP Required",
+    "message": "Additional verification is required.",
+    "riskReasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "48%",
+        "impact": "Low"
+      }
+    ],
+    "passwordValid": true,
+    "otpVerified": false,
+    "simulatedOtp": "246810"
+  },
+  {
+    "attemptId": "SIM-9A0E5FFD",
+    "email": "fresh@wvh.local",
+    "userId": "U00685",
+    "timestamp": "2026-09-14 15:30:37",
+    "loginTime": "2026-09-14 15:30:37",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 7.71,
+    "riskLevel": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationStatus": "Authenticated",
+    "status": "Authenticated",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "19%",
+        "impact": "Low"
+      }
+    ],
+    "passwordValid": true,
+    "otpVerified": false
+  }
+]

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WVH Risk-Adaptive Authentication</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">W</div>
+          <div>
+            <strong>WVH</strong>
+            <span>Risk-Adaptive Auth</span>
+          </div>
+        </div>
+        <nav>
+          <button class="nav-item active" data-route="login">Login Simulation</button>
+          <button class="nav-item" data-route="dashboard">Dashboard</button>
+        </nav>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Prototype</p>
+            <h1>Risk-Adaptive Authentication</h1>
+          </div>
+          <div class="status-pill" id="engineStatus">Engine ready</div>
+        </header>
+
+        <section id="loginView" class="view active">
+          <div class="login-layout">
+            <section class="panel login-panel">
+              <p class="eyebrow">Secure Access</p>
+              <h2>Sign in</h2>
+              <form id="loginForm" class="form">
+                <label>
+                  <span>Email / Username</span>
+                  <input id="email" name="email" autocomplete="username" placeholder="demo@wvh.local" required />
+                </label>
+                <label>
+                  <span>Password</span>
+                  <input id="password" name="password" type="password" autocomplete="current-password" placeholder="password123" required />
+                </label>
+                <button class="primary" type="submit">Login</button>
+              </form>
+              <p class="form-error" id="loginError"></p>
+            </section>
+
+            <section class="panel analysis-panel" id="analysisPanel">
+              <div class="analysis-header">
+                <div>
+                  <p class="eyebrow">Login Analysis</p>
+                  <h2 id="analysisTitle">Waiting for login</h2>
+                </div>
+                <div class="spinner" id="spinner"></div>
+              </div>
+              <div class="steps" id="analysisSteps"></div>
+              <div id="decisionArea" class="decision-area"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="dashboardView" class="view">
+          <section class="current-grid">
+            <div class="panel score-panel">
+              <p class="eyebrow">Current Login Attempt</p>
+              <div class="score-wrap">
+                <div class="score-ring" id="scoreRing">
+                  <span id="scoreValue">--</span>
+                  <small>/ 100</small>
+                </div>
+                <div>
+                  <h2 id="riskLevel">No attempt</h2>
+                  <p id="decisionText">Run a login simulation to populate the dashboard.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel details-panel" id="currentDetails"></div>
+            <div class="panel decision-card" id="authDecision"></div>
+          </section>
+
+          <section class="dashboard-grid">
+            <div class="panel">
+              <div class="section-head">
+                <h2>Risk Signals</h2>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Signal</th>
+                      <th>Observed Value</th>
+                      <th>Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody id="signalsBody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class="section-head">
+                <h2>Risk Trend</h2>
+              </div>
+              <canvas id="trendChart" width="640" height="280"></canvas>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="section-head">
+              <h2>Recent Login Attempts</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>User</th>
+                    <th>Location</th>
+                    <th>Device</th>
+                    <th>Risk</th>
+                    <th>Level</th>
+                    <th>Decision</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="historyBody"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="dashboard-grid">
+            <div class="panel" id="summaryPanel"></div>
+            <div class="panel" id="insightsPanel"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
