@@ -12,7 +12,14 @@ from urllib.parse import parse_qs, urlparse
 BASE_DIR = Path(__file__).resolve().parent
 DEPS_DIR = BASE_DIR / ".codex_deps"
 if DEPS_DIR.exists():
-    sys.path.insert(0, str(DEPS_DIR))
+    try:
+        for root, dirs, files in os.walk(DEPS_DIR):
+            for file_name in files:
+                with open(os.path.join(root, file_name), "rb") as file_check:
+                    file_check.read(1)
+        sys.path.insert(0, str(DEPS_DIR))
+    except (PermissionError, OSError):
+        pass
 
 import pandas as pd
 
@@ -447,80 +454,101 @@ class WVHHandler(SimpleHTTPRequestHandler):
         self.send_response(status)
         self.send_header("Content-Type", "application/json")
         self.send_header("Content-Length", str(len(encoded)))
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type, Authorization")
         self.end_headers()
         self.wfile.write(encoded)
 
+    def do_OPTIONS(self):
+        self.send_response(HTTPStatus.NO_CONTENT)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type, Authorization")
+        self.end_headers()
+
     def do_GET(self):
-        parsed = urlparse(self.path)
-        if parsed.path == "/api/dashboard":
-            params = parse_qs(parsed.query)
-            email = normalize_email(params.get("email", ["demo@wvh.local"])[0])
-            attempt_id = params.get("attemptId", [None])[0]
-            current, history = history_for(email, attempt_id)
-            self.send_json(
-                {
-                    "currentAttempt": current,
-                    "history": history,
-                    "trend": [{"label": row["time"], "score": row["riskScore"]} for row in reversed(history)],
-                    "summary": summary_for(history),
-                    "insights": insights_for(current, history),
-                }
-            )
-            return
-        if parsed.path == "/":
-            self.path = "/index.html"
-        return super().do_GET()
+        try:
+            parsed = urlparse(self.path)
+            if parsed.path == "/api/dashboard":
+                params = parse_qs(parsed.query)
+                email = normalize_email(params.get("email", ["demo@wvh.local"])[0])
+                attempt_id = params.get("attemptId", [None])[0]
+                current, history = history_for(email, attempt_id)
+                self.send_json(
+                    {
+                        "currentAttempt": current,
+                        "history": history,
+                        "trend": [{"label": row["time"], "score": row["riskScore"]} for row in reversed(history)],
+                        "summary": summary_for(history),
+                        "insights": insights_for(current, history),
+                    }
+                )
+                return
+            if parsed.path == "/":
+                self.path = "/index.html"
+            return super().do_GET()
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            self.send_json({"error": str(e)}, HTTPStatus.INTERNAL_SERVER_ERROR)
 
     def do_POST(self):
-        parsed = urlparse(self.path)
-        if parsed.path == "/api/login":
-            body = read_json_body(self)
-            email = normalize_email(body.get("email"))
-            if not email:
-                self.send_json({"error": "Email or username is required."}, HTTPStatus.BAD_REQUEST)
-                return
-            password_valid = str(body.get("password") or "") in DEMO_PASSWORDS
-            row = build_attempt_row(email, body.get("context") or {}, self)
-            scored = score_attempt(row)
-            decision = decision_for(scored, password_valid)
-            attempt = public_attempt(scored, email, decision)
-            attempt["passwordValid"] = password_valid
-            attempt["otpVerified"] = False
-            if decision["status"] == "OTP_REQUIRED":
-                attempt["status"] = "OTP Required"
-                attempt["simulatedOtp"] = DEMO_OTP
-            attempts = load_attempts()
-            attempts.append(attempt)
-            save_attempts(attempts)
-            self.send_json({"decisionStatus": decision["status"], "attempt": attempt})
-            return
-
-        if parsed.path == "/api/verify-otp":
-            body = read_json_body(self)
-            attempt_id = body.get("attemptId")
-            attempts = load_attempts()
-            for attempt in attempts:
-                if attempt.get("attemptId") == attempt_id:
-                    if str(body.get("otp") or "") == DEMO_OTP:
-                        attempt["otpVerified"] = True
-                        attempt["authenticationStatus"] = "Authenticated"
-                        attempt["status"] = "Success"
-                        attempt["decision"] = "Password + OTP"
-                        save_attempts(attempts)
-                        self.send_json({"verified": True, "attempt": attempt})
-                    else:
-                        self.send_json({"verified": False, "error": "Incorrect OTP. Try again."}, HTTPStatus.BAD_REQUEST)
+        try:
+            parsed = urlparse(self.path)
+            if parsed.path == "/api/login":
+                body = read_json_body(self)
+                email = normalize_email(body.get("email"))
+                if not email:
+                    self.send_json({"error": "Email or username is required."}, HTTPStatus.BAD_REQUEST)
                     return
-            self.send_json({"error": "Attempt not found."}, HTTPStatus.NOT_FOUND)
-            return
+                password_valid = str(body.get("password") or "") in DEMO_PASSWORDS
+                row = build_attempt_row(email, body.get("context") or {}, self)
+                scored = score_attempt(row)
+                decision = decision_for(scored, password_valid)
+                attempt = public_attempt(scored, email, decision)
+                attempt["passwordValid"] = password_valid
+                attempt["otpVerified"] = False
+                if decision["status"] == "OTP_REQUIRED":
+                    attempt["status"] = "OTP Required"
+                    attempt["simulatedOtp"] = DEMO_OTP
+                attempts = load_attempts()
+                attempts.append(attempt)
+                save_attempts(attempts)
+                self.send_json({"decisionStatus": decision["status"], "attempt": attempt})
+                return
 
-        self.send_json({"error": "Not found."}, HTTPStatus.NOT_FOUND)
+            if parsed.path == "/api/verify-otp":
+                body = read_json_body(self)
+                attempt_id = body.get("attemptId")
+                attempts = load_attempts()
+                for attempt in attempts:
+                    if attempt.get("attemptId") == attempt_id:
+                        if str(body.get("otp") or "") == DEMO_OTP:
+                            attempt["otpVerified"] = True
+                            attempt["authenticationStatus"] = "Authenticated"
+                            attempt["status"] = "Success"
+                            attempt["decision"] = "Password + OTP"
+                            save_attempts(attempts)
+                            self.send_json({"verified": True, "attempt": attempt})
+                        else:
+                            self.send_json({"verified": False, "error": "Incorrect OTP. Try again."}, HTTPStatus.BAD_REQUEST)
+                        return
+                self.send_json({"error": "Attempt not found."}, HTTPStatus.NOT_FOUND)
+                return
+
+            self.send_json({"error": "Not found."}, HTTPStatus.NOT_FOUND)
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            self.send_json({"error": str(e)}, HTTPStatus.INTERNAL_SERVER_ERROR)
 
 
 def main():
     port = int(os.environ.get("PORT", "8000"))
-    server = ThreadingHTTPServer(("127.0.0.1", port), WVHHandler)
-    print(f"WVH prototype running at http://127.0.0.1:{port}")
+    host = os.environ.get("HOST", "0.0.0.0")
+    server = ThreadingHTTPServer((host, port), WVHHandler)
+    print(f"WVH prototype running at http://{host}:{port} (also accessible at http://127.0.0.1:{port})")
     server.serve_forever()
 
 

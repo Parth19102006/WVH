@@ -1,3 +1,5 @@
+const API_BASE = window.location.protocol === "file:" ? "http://127.0.0.1:8000" : "";
+
 const state = {
   email: localStorage.getItem("wvhEmail") || "demo@wvh.local",
   attemptId: localStorage.getItem("wvhAttemptId") || "",
@@ -161,7 +163,7 @@ async function submitLogin(event) {
   const password = $("#password").value;
   await playAnalysis();
   try {
-    const response = await fetch("/api/login", {
+    const response = await fetch(`${API_BASE}/api/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password, context: collectContext() }),
@@ -180,7 +182,7 @@ async function verifyOtp(event) {
   event.preventDefault();
   $("#otpError").textContent = "";
   try {
-    const response = await fetch("/api/verify-otp", {
+    const response = await fetch(`${API_BASE}/api/verify-otp`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ attemptId: state.attemptId, otp: $("#otp").value.trim() }),
@@ -342,7 +344,7 @@ function renderInsights(insights = []) {
 async function loadDashboard() {
   const params = new URLSearchParams({ email: state.email || "demo@wvh.local" });
   if (state.attemptId) params.set("attemptId", state.attemptId);
-  const response = await fetch(`/api/dashboard?${params.toString()}`);
+  const response = await fetch(`${API_BASE}/api/dashboard?${params.toString()}`);
   const data = await response.json();
   state.currentAttempt = data.currentAttempt;
   renderCurrent(data.currentAttempt);

@@ -343,5 +343,5758 @@
     "passwordValid": true,
     "otpVerified": false,
     "simulatedOtp": "246810"
+  },
+  {
+    "attemptId": "SIM-7C658B1B",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:49:16",
+    "loginTime": "2026-09-14 15:49:16",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 19.82,
+    "risk_score": 19.82,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "20%",
+        "observed_value": "20%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:49:16",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 19.54,
+    "behavioral_score": 19.54,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-0C368863",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:50:29",
+    "loginTime": "2026-09-14 15:50:29",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.87,
+    "risk_score": 1.87,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:50:29",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.67,
+    "behavioral_score": 4.67,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-004A120D",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:50:53",
+    "loginTime": "2026-09-14 15:50:53",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.0,
+    "risk_score": 2.0,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 1,
+        "observed_value": 1,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:50:53",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.0,
+    "behavioral_score": 5.0,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-499BE395",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:12",
+    "loginTime": "2026-09-14 15:56:12",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.87,
+    "risk_score": 1.87,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:12",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.67,
+    "behavioral_score": 4.67,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-5486D51E",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:15",
+    "loginTime": "2026-09-14 15:56:15",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.0,
+    "risk_score": 2.0,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 1,
+        "observed_value": 1,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:15",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.0,
+    "behavioral_score": 5.0,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-BC1AE9AF",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:17",
+    "loginTime": "2026-09-14 15:56:17",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 3.46,
+    "risk_score": 3.46,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 2,
+        "observed_value": 2,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "9%",
+        "observed_value": "9%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:17",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 8.64,
+    "behavioral_score": 8.64,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-F6E9AEF7",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:20",
+    "loginTime": "2026-09-14 15:56:20",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 14.48,
+    "risk_score": 14.48,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 3,
+        "observed_value": 3,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "14%",
+        "observed_value": "14%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:20",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 13.7,
+    "behavioral_score": 13.7,
+    "rbsScore": 15.0,
+    "rbs_score": 15.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-32AE3F4E",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:22",
+    "loginTime": "2026-09-14 15:56:22",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 16.72,
+    "risk_score": 16.72,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 4,
+        "observed_value": 4,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "19%",
+        "observed_value": "19%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:22",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 19.31,
+    "behavioral_score": 19.31,
+    "rbsScore": 15.0,
+    "rbs_score": 15.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-E491116D",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:25",
+    "loginTime": "2026-09-14 15:56:25",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 23.87,
+    "risk_score": 23.87,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 5,
+        "observed_value": 5,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "22%",
+        "observed_value": "22%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:25",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 22.18,
+    "behavioral_score": 22.18,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-3CB44E04",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:27",
+    "loginTime": "2026-09-14 15:56:27",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.36,
+    "risk_score": 24.36,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 6,
+        "observed_value": 6,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "23%",
+        "observed_value": "23%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:27",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 23.4,
+    "behavioral_score": 23.4,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-7FE67D67",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:29",
+    "loginTime": "2026-09-14 15:56:29",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.87,
+    "risk_score": 24.87,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 7,
+        "observed_value": 7,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "25%",
+        "observed_value": "25%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:29",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 24.67,
+    "behavioral_score": 24.67,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-B08F1F93",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:32",
+    "loginTime": "2026-09-14 15:56:32",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.87,
+    "risk_score": 24.87,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 8,
+        "observed_value": 8,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "25%",
+        "observed_value": "25%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:32",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 24.67,
+    "behavioral_score": 24.67,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-CD7FCBAD",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:34",
+    "loginTime": "2026-09-14 15:56:34",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 25.46,
+    "risk_score": 25.46,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 9,
+        "observed_value": 9,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "26%",
+        "observed_value": "26%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:34",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 26.14,
+    "behavioral_score": 26.14,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-842B03F6",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:36",
+    "loginTime": "2026-09-14 15:56:36",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 25.46,
+    "risk_score": 25.46,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 10,
+        "observed_value": 10,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "26%",
+        "observed_value": "26%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:36",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 26.14,
+    "behavioral_score": 26.14,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-2D957D70",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:41",
+    "loginTime": "2026-09-14 15:56:41",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 25.46,
+    "risk_score": 25.46,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 11,
+        "observed_value": 11,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "26%",
+        "observed_value": "26%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:41",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 26.14,
+    "behavioral_score": 26.14,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-70941009",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:56:51",
+    "loginTime": "2026-09-14 15:56:51",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 25.46,
+    "risk_score": 25.46,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 12,
+        "observed_value": 12,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "26%",
+        "observed_value": "26%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:56:51",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 26.14,
+    "behavioral_score": 26.14,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-9793FAE4",
+    "email": "parthpopli19@gmail.com",
+    "userId": "U00614",
+    "timestamp": "2026-09-14 15:57:08",
+    "loginTime": "2026-09-14 15:57:08",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 22.25,
+    "risk_score": 22.25,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "New Device"
+    ],
+    "risk_reasons": [
+      "New Device"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "observed_value": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "26%",
+        "observed_value": "26%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:57:08",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 25.63,
+    "behavioral_score": 25.63,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-7B615031",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 15:57:32",
+    "loginTime": "2026-09-14 15:57:32",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 25.46,
+    "risk_score": 25.46,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "15:00 UTC",
+        "observed_value": "15:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 13,
+        "observed_value": 13,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "26%",
+        "observed_value": "26%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 15:57:32",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 26.14,
+    "behavioral_score": 26.14,
+    "rbsScore": 25.0,
+    "rbs_score": 25.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-2FD676B0",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:01:27",
+    "loginTime": "2026-09-14 16:01:27",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.86,
+    "risk_score": 24.86,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "32%",
+        "observed_value": "32%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:01:27",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Godthab",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 32.15,
+    "behavioral_score": 32.15,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-2786D19C",
+    "email": "demo-gr@wvh.local",
+    "userId": "U00726",
+    "timestamp": "2026-09-14 16:01:43",
+    "loginTime": "2026-09-14 16:01:43",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 46.68,
+    "risk_score": 46.68,
+    "riskLevel": "MEDIUM",
+    "risk_level": "MEDIUM",
+    "requiredAction": "PASSWORD + OTP",
+    "required_action": "PASSWORD + OTP",
+    "decision": "Password + OTP",
+    "authenticationDecision": "PASSWORD_OTP",
+    "authentication_decision": "PASSWORD_OTP",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "OTP Required",
+    "status": "Success",
+    "message": "Additional verification is required.",
+    "riskReasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "49%",
+        "observed_value": "49%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:01:43",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Godthab",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 49.19,
+    "behavioral_score": 49.19,
+    "rbsScore": 45.0,
+    "rbs_score": 45.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": true,
+    "simulatedOtp": "246810"
+  },
+  {
+    "attemptId": "SIM-970FA7D7",
+    "email": "demo-gr@wvh.local",
+    "userId": "U00726",
+    "timestamp": "2026-09-14 16:04:30",
+    "loginTime": "2026-09-14 16:04:30",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 19.14,
+    "risk_score": 19.14,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "18%",
+        "observed_value": "18%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:04:30",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 17.85,
+    "behavioral_score": 17.85,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-DF4A4123",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:04:38",
+    "loginTime": "2026-09-14 16:04:38",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 19.7,
+    "risk_score": 19.7,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "19%",
+        "observed_value": "19%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:04:38",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 19.26,
+    "behavioral_score": 19.26,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-9B71C9CA",
+    "email": "demo-gr@wvh.local",
+    "userId": "U00726",
+    "timestamp": "2026-09-14 16:07:56",
+    "loginTime": "2026-09-14 16:07:56",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.26,
+    "risk_score": 1.26,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "3%",
+        "observed_value": "3%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:07:56",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 3.15,
+    "behavioral_score": 3.15,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-F9CFFB29",
+    "email": "demo-gr@wvh.local",
+    "userId": "U00726",
+    "timestamp": "2026-09-14 16:09:12",
+    "loginTime": "2026-09-14 16:09:12",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.14,
+    "risk_score": 24.14,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "30%",
+        "observed_value": "30%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:09:12",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 30.34,
+    "behavioral_score": 30.34,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-6D8370E8",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:09:19",
+    "loginTime": "2026-09-14 16:09:19",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.86,
+    "risk_score": 24.86,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "32%",
+        "observed_value": "32%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:09:19",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 32.15,
+    "behavioral_score": 32.15,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-C742F6F0",
+    "email": "demo-us@wvh.local",
+    "userId": "U00826",
+    "timestamp": "2026-09-14 16:09:24",
+    "loginTime": "2026-09-14 16:09:24",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 60.14,
+    "risk_score": 60.14,
+    "riskLevel": "HIGH",
+    "risk_level": "HIGH",
+    "requiredAction": "STRONG STEP-UP / BLOCK",
+    "required_action": "STRONG STEP-UP / BLOCK",
+    "decision": "Blocked",
+    "authenticationDecision": "BLOCKED",
+    "authentication_decision": "BLOCKED",
+    "authenticationStatus": "Blocked",
+    "authentication_status": "Blocked",
+    "status": "Blocked",
+    "message": "Suspicious login detected.",
+    "riskReasons": [
+      "New Country",
+      "New Device"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "New Device"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "observed_value": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "83%",
+        "observed_value": "83%",
+        "impact": "High"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:09:24",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 82.84,
+    "behavioral_score": 82.84,
+    "rbsScore": 45.0,
+    "rbs_score": 45.0,
+    "ifAnomalyFlag": 1,
+    "if_anomaly_flag": 1,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-9A122D05",
+    "email": "demo-us@wvh.local",
+    "userId": "U00826",
+    "timestamp": "2026-09-14 16:09:53",
+    "loginTime": "2026-09-14 16:09:53",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 13.5,
+    "risk_score": 13.5,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 1,
+        "observed_value": 1,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "34%",
+        "observed_value": "34%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:09:53",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 33.76,
+    "behavioral_score": 33.76,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-6428B36B",
+    "email": "demo-us@wvh.local",
+    "userId": "U00826",
+    "timestamp": "2026-09-14 16:09:57",
+    "loginTime": "2026-09-14 16:09:57",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 13.49,
+    "risk_score": 13.49,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "34%",
+        "observed_value": "34%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:09:57",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 33.72,
+    "behavioral_score": 33.72,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-707CD05C",
+    "email": "demo-gr@wvh.local",
+    "userId": "U00726",
+    "timestamp": "2026-09-14 16:10:06",
+    "loginTime": "2026-09-14 16:10:06",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 8.0,
+    "risk_score": 8.0,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "20%",
+        "observed_value": "20%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:10:06",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 19.99,
+    "behavioral_score": 19.99,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-951CBADE",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:10:10",
+    "loginTime": "2026-09-14 16:10:10",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 8.94,
+    "risk_score": 8.94,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "22%",
+        "observed_value": "22%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:10:10",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/Havana",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 22.36,
+    "behavioral_score": 22.36,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-492D5F70",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:11:10",
+    "loginTime": "2026-09-14 16:11:10",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 19.7,
+    "risk_score": 19.7,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "19%",
+        "observed_value": "19%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:11:10",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 19.26,
+    "behavioral_score": 19.26,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-E865D2B4",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:12:45",
+    "loginTime": "2026-09-14 16:12:45",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.76,
+    "risk_score": 1.76,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:12:45",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.41,
+    "behavioral_score": 4.41,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-BB6B6D50",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:12:59",
+    "loginTime": "2026-09-14 16:12:59",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.76,
+    "risk_score": 1.76,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:12:59",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.41,
+    "behavioral_score": 4.41,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-34A7606A",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:13:03",
+    "loginTime": "2026-09-14 16:13:03",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.9,
+    "risk_score": 1.9,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 1,
+        "observed_value": 1,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:13:03",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.74,
+    "behavioral_score": 4.74,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-51908D54",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:13:07",
+    "loginTime": "2026-09-14 16:13:07",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 3.6,
+    "risk_score": 3.6,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 2,
+        "observed_value": 2,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "9%",
+        "observed_value": "9%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:13:07",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 8.99,
+    "behavioral_score": 8.99,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-F8321F69",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:13:09",
+    "loginTime": "2026-09-14 16:13:09",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 14.62,
+    "risk_score": 14.62,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 3,
+        "observed_value": 3,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "14%",
+        "observed_value": "14%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:13:09",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 14.06,
+    "behavioral_score": 14.06,
+    "rbsScore": 15.0,
+    "rbs_score": 15.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-4FC718D6",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:13:21",
+    "loginTime": "2026-09-14 16:13:21",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 16.87,
+    "risk_score": 16.87,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Multiple Failed Attempts"
+    ],
+    "risk_reasons": [
+      "Multiple Failed Attempts"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 4,
+        "observed_value": 4,
+        "impact": "High"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "20%",
+        "observed_value": "20%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:13:21",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 19.68,
+    "behavioral_score": 19.68,
+    "rbsScore": 15.0,
+    "rbs_score": 15.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-8F187E02",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:14:29",
+    "loginTime": "2026-09-14 16:14:29",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.76,
+    "risk_score": 1.76,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:14:29",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.41,
+    "behavioral_score": 4.41,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-1F5C11B6",
+    "email": "demo-ir@wvh.local",
+    "userId": "U00144",
+    "timestamp": "2026-09-14 16:14:36",
+    "loginTime": "2026-09-14 16:14:36",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 41.76,
+    "risk_score": 41.76,
+    "riskLevel": "MEDIUM",
+    "risk_level": "MEDIUM",
+    "requiredAction": "PASSWORD + OTP",
+    "required_action": "PASSWORD + OTP",
+    "decision": "Password + OTP",
+    "authenticationDecision": "PASSWORD_OTP",
+    "authentication_decision": "PASSWORD_OTP",
+    "authenticationStatus": "OTP Required",
+    "authentication_status": "OTP Required",
+    "status": "OTP Required",
+    "message": "Additional verification is required.",
+    "riskReasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "37%",
+        "observed_value": "37%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:14:36",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 36.89,
+    "behavioral_score": 36.89,
+    "rbsScore": 45.0,
+    "rbs_score": 45.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false,
+    "simulatedOtp": "246810"
+  },
+  {
+    "attemptId": "SIM-6D3078D0",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:15:09",
+    "loginTime": "2026-09-14 16:15:09",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.76,
+    "risk_score": 1.76,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:15:09",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.41,
+    "behavioral_score": 4.41,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-019554D5",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:25:37",
+    "loginTime": "2026-09-14 16:25:37",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.76,
+    "risk_score": 1.76,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:25:37",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.41,
+    "behavioral_score": 4.41,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-85485D23",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:25:47",
+    "loginTime": "2026-09-14 16:25:47",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.9,
+    "risk_score": 1.9,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 1,
+        "observed_value": 1,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:25:47",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.74,
+    "behavioral_score": 4.74,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-D72A99FC",
+    "email": "demo-i@wvh.local",
+    "userId": "U00866",
+    "timestamp": "2026-09-14 16:26:43",
+    "loginTime": "2026-09-14 16:26:43",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 57.18,
+    "risk_score": 57.18,
+    "riskLevel": "MEDIUM",
+    "risk_level": "MEDIUM",
+    "requiredAction": "PASSWORD + OTP",
+    "required_action": "PASSWORD + OTP",
+    "decision": "Password + OTP",
+    "authenticationDecision": "PASSWORD_OTP",
+    "authentication_decision": "PASSWORD_OTP",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "OTP Required",
+    "status": "Success",
+    "message": "Additional verification is required.",
+    "riskReasons": [
+      "New Country",
+      "New Device"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "New Device"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "observed_value": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "75%",
+        "observed_value": "75%",
+        "impact": "High"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:26:43",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 75.45,
+    "behavioral_score": 75.45,
+    "rbsScore": 45.0,
+    "rbs_score": 45.0,
+    "ifAnomalyFlag": 1,
+    "if_anomaly_flag": 1,
+    "passwordValid": true,
+    "otpVerified": true,
+    "simulatedOtp": "246810"
+  },
+  {
+    "attemptId": "SIM-2C0E7524",
+    "email": "demo-ir@wvh.local",
+    "userId": "U00144",
+    "timestamp": "2026-09-14 16:27:26",
+    "loginTime": "2026-09-14 16:27:26",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.34,
+    "risk_score": 1.34,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "3%",
+        "observed_value": "3%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:27:26",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 3.35,
+    "behavioral_score": 3.35,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-3C3EB179",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-14 16:27:37",
+    "loginTime": "2026-09-14 16:27:37",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.76,
+    "risk_score": 1.76,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:27:37",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 4.41,
+    "behavioral_score": 4.41,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-D6001E77",
+    "email": "demo-i@wvh.local",
+    "userId": "U00866",
+    "timestamp": "2026-09-14 16:28:05",
+    "loginTime": "2026-09-14 16:28:05",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 7.08,
+    "risk_score": 7.08,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "16:00 UTC",
+        "observed_value": "16:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "18%",
+        "observed_value": "18%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-14 16:28:05",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 17.71,
+    "behavioral_score": 17.71,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-83D292B2",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:23:04",
+    "loginTime": "2026-09-15 10:23:04",
+    "device": "Unknown Device",
+    "browser": "Unknown",
+    "os": "Unknown",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 17.36,
+    "risk_score": 17.36,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password + OTP",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "New Device"
+    ],
+    "risk_reasons": [
+      "New Device"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "observed_value": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "13%",
+        "observed_value": "13%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:23:04",
+      "device": "Unknown Device",
+      "browser": "Unknown",
+      "os": "Unknown",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Unknown",
+      "language": "Unknown",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 13.4,
+    "behavioral_score": 13.4,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": true
+  },
+  {
+    "attemptId": "SIM-42E1D593",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:26:06",
+    "loginTime": "2026-09-15 10:26:06",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.04,
+    "risk_score": 2.04,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:26:06",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.09,
+    "behavioral_score": 5.09,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-2EE7B20C",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:26:08",
+    "loginTime": "2026-09-15 10:26:08",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.04,
+    "risk_score": 2.04,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:26:08",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.09,
+    "behavioral_score": 5.09,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-9585C125",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:26:42",
+    "loginTime": "2026-09-15 10:26:42",
+    "device": "Unknown Device",
+    "browser": "Unknown",
+    "os": "Unknown",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 0.0,
+    "risk_score": 0.0,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Unknown Device",
+        "observed_value": "Unknown Device",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "0%",
+        "observed_value": "0%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:26:42",
+      "device": "Unknown Device",
+      "browser": "Unknown",
+      "os": "Unknown",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Kolkata",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 0.0,
+    "behavioral_score": 0.0,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-69043525",
+    "email": "user2@wvh.local",
+    "userId": "U00215",
+    "timestamp": "2026-09-15 10:26:42",
+    "loginTime": "2026-09-15 10:26:42",
+    "device": "Linux-Laptop",
+    "browser": "Firefox",
+    "os": "Unknown",
+    "country": "JP",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 64.72,
+    "risk_score": 64.72,
+    "riskLevel": "HIGH",
+    "risk_level": "HIGH",
+    "requiredAction": "STRONG STEP-UP / BLOCK",
+    "required_action": "STRONG STEP-UP / BLOCK",
+    "decision": "Blocked",
+    "authenticationDecision": "BLOCKED",
+    "authentication_decision": "BLOCKED",
+    "authenticationStatus": "Blocked",
+    "authentication_status": "Blocked",
+    "status": "Blocked",
+    "message": "Suspicious login detected.",
+    "riskReasons": [
+      "New Country",
+      "New Device",
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "New Device",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "observed_value": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "64%",
+        "observed_value": "64%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:26:42",
+      "device": "Linux-Laptop",
+      "browser": "Firefox",
+      "os": "Unknown",
+      "country": "JP",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Tokyo",
+      "language": "ja-JP",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 64.31,
+    "behavioral_score": 64.31,
+    "rbsScore": 65.0,
+    "rbs_score": 65.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-85DF6DCD",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:26:42",
+    "loginTime": "2026-09-15 10:26:42",
+    "device": "Unknown Device",
+    "browser": "Unknown",
+    "os": "Unknown",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 0.0,
+    "risk_score": 0.0,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_FAILED",
+    "authentication_decision": "PASSWORD_FAILED",
+    "authenticationStatus": "Failed",
+    "authentication_status": "Failed",
+    "status": "Failed",
+    "message": "Password authentication failed.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Unknown Device",
+        "observed_value": "Unknown Device",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "0%",
+        "observed_value": "0%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:26:42",
+      "device": "Unknown Device",
+      "browser": "Unknown",
+      "os": "Unknown",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Kolkata",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 0.0,
+    "behavioral_score": 0.0,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": false,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-0A05012D",
+    "email": "otp_test@wvh.local",
+    "userId": "U00137",
+    "timestamp": "2026-09-15 10:26:51",
+    "loginTime": "2026-09-15 10:26:51",
+    "device": "Unknown Device",
+    "browser": "Unknown",
+    "os": "Unknown",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 62.26,
+    "risk_score": 62.26,
+    "riskLevel": "HIGH",
+    "risk_level": "HIGH",
+    "requiredAction": "STRONG STEP-UP / BLOCK",
+    "required_action": "STRONG STEP-UP / BLOCK",
+    "decision": "Password + OTP",
+    "authenticationDecision": "BLOCKED",
+    "authentication_decision": "BLOCKED",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Blocked",
+    "status": "Success",
+    "message": "Suspicious login detected.",
+    "riskReasons": [
+      "New Country",
+      "New Device",
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "New Country",
+      "New Device",
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "New Device",
+        "observed_value": "New Device",
+        "impact": "High"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "New Country",
+        "observed_value": "New Country",
+        "impact": "High"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "58%",
+        "observed_value": "58%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:26:51",
+      "device": "Unknown Device",
+      "browser": "Unknown",
+      "os": "Unknown",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "America/New_York",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 58.15,
+    "behavioral_score": 58.15,
+    "rbsScore": 65.0,
+    "rbs_score": 65.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": true
+  },
+  {
+    "attemptId": "SIM-FF0772E1",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:27:27",
+    "loginTime": "2026-09-15 10:27:27",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.36,
+    "risk_score": 2.36,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 1,
+        "observed_value": 1,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "6%",
+        "observed_value": "6%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:27:27",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.91,
+    "behavioral_score": 5.91,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-190037D9",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:28:36",
+    "loginTime": "2026-09-15 10:28:36",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.04,
+    "risk_score": 2.04,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:28:36",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.09,
+    "behavioral_score": 5.09,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-ADAC555A",
+    "email": "demo-i@wvh.local",
+    "userId": "U00866",
+    "timestamp": "2026-09-15 10:28:42",
+    "loginTime": "2026-09-15 10:28:42",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 7.17,
+    "risk_score": 7.17,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "18%",
+        "observed_value": "18%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:28:42",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 17.92,
+    "behavioral_score": 17.92,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-DE670660",
+    "email": "demo-ir@wvh.local",
+    "userId": "U00144",
+    "timestamp": "2026-09-15 10:28:47",
+    "loginTime": "2026-09-15 10:28:47",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 1.49,
+    "risk_score": 1.49,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "4%",
+        "observed_value": "4%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:28:47",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 3.73,
+    "behavioral_score": 3.73,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-DFD7F3D3",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:29:35",
+    "loginTime": "2026-09-15 10:29:35",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "US",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 24.84,
+    "risk_score": 24.84,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "US",
+        "observed_value": "US",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "32%",
+        "observed_value": "32%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:29:35",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "US",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Dhaka",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 32.1,
+    "behavioral_score": 32.1,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-134A8238",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 10:43:33",
+    "loginTime": "2026-09-15 10:43:33",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 20.0,
+    "risk_score": 20.0,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Location Change"
+    ],
+    "risk_reasons": [
+      "Location Change"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "10:00 UTC",
+        "observed_value": "10:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Changed",
+        "observed_value": "Changed",
+        "impact": "High"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "20%",
+        "observed_value": "20%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 10:43:33",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 20.0,
+    "behavioral_score": 20.0,
+    "rbsScore": 20.0,
+    "rbs_score": 20.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-179A4529",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 11:06:04",
+    "loginTime": "2026-09-15 11:06:04",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.04,
+    "risk_score": 2.04,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "11:00 UTC",
+        "observed_value": "11:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 11:06:04",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.09,
+    "behavioral_score": 5.09,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
+  },
+  {
+    "attemptId": "SIM-43516561",
+    "email": "demo@wvh.local",
+    "userId": "U00585",
+    "timestamp": "2026-09-15 11:07:52",
+    "loginTime": "2026-09-15 11:07:52",
+    "device": "Windows-Laptop",
+    "browser": "Chrome",
+    "os": "Windows",
+    "country": "IN",
+    "ipAddress": "127.0.0.1",
+    "riskScore": 2.04,
+    "risk_score": 2.04,
+    "riskLevel": "LOW",
+    "risk_level": "LOW",
+    "requiredAction": "ALLOW / PASSWORD",
+    "required_action": "ALLOW / PASSWORD",
+    "decision": "Password",
+    "authenticationDecision": "PASSWORD_ONLY",
+    "authentication_decision": "PASSWORD_ONLY",
+    "authenticationStatus": "Authenticated",
+    "authentication_status": "Authenticated",
+    "status": "Success",
+    "message": "Password authentication is sufficient.",
+    "riskReasons": [
+      "Normal"
+    ],
+    "risk_reasons": [
+      "Normal"
+    ],
+    "signals": [
+      {
+        "signal": "Login Time",
+        "observedValue": "11:00 UTC",
+        "observed_value": "11:00 UTC",
+        "impact": "Low"
+      },
+      {
+        "signal": "Device",
+        "observedValue": "Windows-Laptop",
+        "observed_value": "Windows-Laptop",
+        "impact": "Low"
+      },
+      {
+        "signal": "Country",
+        "observedValue": "IN",
+        "observed_value": "IN",
+        "impact": "Low"
+      },
+      {
+        "signal": "Location Change",
+        "observedValue": "Typical",
+        "observed_value": "Typical",
+        "impact": "Low"
+      },
+      {
+        "signal": "IP Reputation",
+        "observedValue": "0.12",
+        "observed_value": "0.12",
+        "impact": "Medium"
+      },
+      {
+        "signal": "Failed Attempts",
+        "observedValue": 0,
+        "observed_value": 0,
+        "impact": "Low"
+      },
+      {
+        "signal": "Behavioral Deviation",
+        "observedValue": "5%",
+        "observed_value": "5%",
+        "impact": "Low"
+      }
+    ],
+    "context": {
+      "timestamp": "2026-09-15 11:07:52",
+      "device": "Windows-Laptop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "country": "IN",
+      "ip_address": "127.0.0.1",
+      "timezone": "Asia/Calcutta",
+      "language": "en-US",
+      "location_source": "prototype fallback from timezone/locale; localhost IP has no public geolocation"
+    },
+    "behavioralScore": 5.09,
+    "behavioral_score": 5.09,
+    "rbsScore": 0.0,
+    "rbs_score": 0.0,
+    "ifAnomalyFlag": 0,
+    "if_anomaly_flag": 0,
+    "passwordValid": true,
+    "otpVerified": false
   }
 ]
